@@ -15,7 +15,7 @@ class AddScreen extends StatelessWidget {
         child: Column(
           children:[
             TextFormField(
-              decoration: InputDecoration(
+              decoration: const InputDecoration(
                 hintText: 'Title',
               ),
               validator: (value) {
@@ -28,7 +28,7 @@ class AddScreen extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.symmetric(vertical: 20.0),
               child: TextFormField(
-                decoration: InputDecoration(
+                decoration: const InputDecoration(
                   hintText: 'Details',
                 ),
                 validator: (value) {

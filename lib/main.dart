@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:todo_app/home_screen.dart';
 import 'package:todo_app/theme_manager.dart';
 
-import 'edit_screen.dart';
 
 void main() {
   runApp(const MyApp());
